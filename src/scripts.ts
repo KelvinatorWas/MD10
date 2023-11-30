@@ -1,6 +1,7 @@
 /* eslint-disable no-alert */
 import $ from 'jquery';
 import axios from 'axios';
+import Toastify from 'toastify-js';
 import { validateFormInput } from './utils/validateFormInputs/validateFormInputs';
 
 // console.log('Body jQuery node:', $('body'));
@@ -42,11 +43,22 @@ $(() => {
 
     if (isValid) {
       const isEmailAlreadyUsed = await lookUpEmail(em);
-
       if (!isEmailAlreadyUsed) {
+        Toastify({
+          text: `${na} Registered`,
+          duration: 3000,
+        }).showToast();
         pushData({ name: na, email: em, password: pas });
+        $('#email').val('');
+        $('#name').val('');
+        $('#password').val('');
+        $('#repassword').val('');
       } else {
-        alert('Email is already being used');
+        Toastify({
+          text: 'Email is already taken!',
+          duration: 3000,
+          backgroundColor: 'red',
+        }).showToast();
       }
     }
   });

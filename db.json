@@ -5,6 +5,24 @@
       "email": "testing@verycool.com",
       "password": "myNam3jeff2012!",
       "id": 0
+    },
+    {
+      "name": "Jane Doe",
+      "email": "example@example.com",
+      "password": "mypassword1!",
+      "id": 1
+    },
+    {
+      "name": "John Doe",
+      "email": "example_2@example.com",
+      "password": ",$_9kfDiSH'.+N?",
+      "id": 2
+    },
+    {
+      "name": "Janis",
+      "email": "test@test.com",
+      "password": ",$_9kfDiSH'.+N?",
+      "id": 3
     }
   ]
 }

@@ -1,9 +1,10 @@
 import axios from 'axios';
 
 type User = {
-    name:string;
-    email:string;
-    password:string;
+  id?: number;
+  name:string;
+  email:string;
+  password:string;
 }
 
 // eslint-disable-next-line import/prefer-default-export
