@@ -1,0 +1,16 @@
+:root {
+    /*FONT*/
+    --r-font: Roboto Condensed;
+    --i-font: Inter;
+    /* colors light */
+    --l-purple: #06070E;
+    --l-mbg:#D1CCDC;
+    --l-bg: #F5EDF0;
+
+    /* colors dark */
+    --d-gray: #BAB9BD;
+    --d-mbg:#130F1C;
+    --d-bg: #1F1B29;
+
+    --d-input:#2E2A36;
+}
