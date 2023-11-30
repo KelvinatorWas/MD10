@@ -43,12 +43,15 @@ $(() => {
 
     if (isValid) {
       const isEmailAlreadyUsed = await lookUpEmail(em);
+
       if (!isEmailAlreadyUsed) {
         Toastify({
           text: `${na} Registered`,
           duration: 3000,
         }).showToast();
+
         pushData({ name: na, email: em, password: pas });
+
         $('#email').val('');
         $('#name').val('');
         $('#password').val('');
