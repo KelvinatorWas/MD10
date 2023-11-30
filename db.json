@@ -23,6 +23,12 @@
       "email": "test@test.com",
       "password": ",$_9kfDiSH'.+N?",
       "id": 3
+    },
+    {
+      "name": "Bruce Wayne",
+      "email": "brucewayne_notbatman@example.com",
+      "password": ",$_9kfDiSH'.+N?",
+      "id": 4
     }
   ]
 }

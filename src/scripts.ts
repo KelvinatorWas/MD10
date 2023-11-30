@@ -48,6 +48,7 @@ $(() => {
         Toastify({
           text: `${na} Registered`,
           duration: 3000,
+          backgroundColor: 'green',
         }).showToast();
 
         pushData({ name: na, email: em, password: pas });
