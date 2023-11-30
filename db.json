@@ -29,6 +29,24 @@
       "email": "brucewayne_notbatman@example.com",
       "password": ",$_9kfDiSH'.+N?",
       "id": 4
+    },
+    {
+      "name": "Janis",
+      "email": "testemail@gmail.com",
+      "password": "password!1",
+      "id": 5
+    },
+    {
+      "name": "Inga",
+      "email": "testemail@gmail.co.uk",
+      "password": "password!1",
+      "id": 6
+    },
+    {
+      "name": "Jojo",
+      "email": "testing@test.com",
+      "password": "password1!",
+      "id": 7
     }
   ]
 }
